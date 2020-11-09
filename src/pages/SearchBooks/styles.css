@@ -127,9 +127,7 @@
 }
 
 .book-item footer .button-container {
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 16px;
+  display: flex;
 }
 
 .book-item  footer button {
@@ -176,6 +174,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 16px; 
+  }
+  
+  .book-item footer .button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
   }
 
   .book-item header,
