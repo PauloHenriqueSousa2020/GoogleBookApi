@@ -1,0 +1,73 @@
+#page-landing {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #000;
+  background: #e9f6ff;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.book-image {
+  max-width: 80rem;
+}
+
+.logo-container h2 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 4.6rem;
+  margin-top: 0.8rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: 3.2rem 0;
+}
+
+.buttons-container a {
+  width: 30rem;
+  height: 10.4rem;
+  border-radius: 0.8rem;
+  font: 700 2rem Archivo;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  color: #FFFFFF
+}
+
+.buttons-container a:first-child{
+  margin-right: 1.6rem;
+}
+
+.buttons-container a.search-books{
+  background: #fdac04;
+}
+
+.buttons-container a.favorites-book{
+  background: #0352d3;
+}
+
+.buttons-container a.search-books:hover{
+  filter: brightness(90%);
+}
+
+.buttons-container a.favorites-book:hover{
+  filter: brightness(90%);
+}
+
+.buttons-container a {
+  margin-right: 2.4rem;
+}
+
+
