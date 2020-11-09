@@ -121,8 +121,7 @@ function SearchBooks() {
                     <header>
                     {bookItem.volumeInfo.imageLinks === undefined ? (<></>) : (<img src={bookItem.volumeInfo.imageLinks.thumbnail} alt={bookItem.volumeInfo.title}/>)}
                       <div>
-                        <strong>{bookItem.volumeInfo.title}</strong>
-                        <span>{bookItem.volumeInfo.authors}</span>
+                        
                       </div>
                     </header>
                     <footer>
