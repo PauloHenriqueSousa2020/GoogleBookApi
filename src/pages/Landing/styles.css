@@ -16,7 +16,7 @@
 }
 
 .book-image {
-  max-width: 40rem;
+  max-width: 10rem;
 }
 
 .logo-container h2 {
@@ -103,6 +103,7 @@
   .book-image {
     grid-area: hero;
     justify-self: end;
+    max-width: 60rem;
   }
 
   .buttons-container {
