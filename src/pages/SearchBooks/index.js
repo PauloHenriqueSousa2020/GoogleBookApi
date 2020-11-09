@@ -121,7 +121,8 @@ function SearchBooks() {
                     <header>
                     {bookItem.volumeInfo.imageLinks === undefined ? (<></>) : (<img src={bookItem.volumeInfo.imageLinks.thumbnail} alt={bookItem.volumeInfo.title}/>)}
                       <div>
-                        
+                        <strong>{bookItem.volumeInfo.title}</strong>
+                        <span>{bookItem.volumeInfo.authors}</span>
                       </div>
                     </header>
                     <footer>
@@ -130,10 +131,7 @@ function SearchBooks() {
                           <ImStarFull size={22} color="#FFF" />
                           Favoritar
                         </button>
-                        <button onClick={() => handleMoreInfos(bookItem)}>
-                          <ImPlus size={22} color="#FFF" />
-                          Ver detalhes
-                        </button>
+     
                       </div>
                     </footer>
                   </article>
