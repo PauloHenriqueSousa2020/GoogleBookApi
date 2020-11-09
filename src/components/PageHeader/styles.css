@@ -45,8 +45,8 @@
 }
 
 .page-header .header-content strong {
-  font: 700 3.6rem Archivo;
-  line-height: 4.2rem;
+  font: 700 2.0rem Archivo;
+  line-height: 3.5rem;
   color: #000;
 }
 
@@ -67,6 +67,13 @@
     max-width: 1100px;
   }
 
+  .page-header .header-content strong {
+    font: 700 3.6rem Archivo;
+    line-height: 4.2rem;
+    color: #000;
+    max-width: 350px;
+  }
+
   .page-header .header-content{
     flex: 1;
     max-width: 740px;
@@ -78,7 +85,4 @@
     align-items: flex-start;
   }
 
-  .page-header .header-content strong {
-    max-width: 350px;
-  };
 }
