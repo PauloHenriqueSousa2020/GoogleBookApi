@@ -16,7 +16,7 @@
 }
 
 .book-image {
-  max-width: 80rem;
+  max-width: 40rem;
 }
 
 .logo-container h2 {
@@ -70,4 +70,49 @@
   margin-right: 2.4rem;
 }
 
+@media (min-width: 1100px){
+  #page-landing-content {
+    max-width: 1100px;
 
+    display: grid;
+
+    grid-template-rows: 350px 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: 
+      "logo hero hero"
+      "buttons buttons total"
+    ;
+  }
+
+  .logo-container {
+    grid-area: logo;
+    align-self: center;
+    margin: 0;
+    text-align: left;
+  }
+
+  .logo-container h2{
+    text-align: initial;
+    font-size: 3.6rem;
+  }
+
+  .logo-container img{
+    height: 100%;
+  }
+
+  .book-image {
+    grid-area: hero;
+    justify-self: end;
+  }
+
+  .buttons-container {
+    grid-area: buttons;
+    justify-content: flex-start;
+  }
+
+  .buttons-container a{
+    font-size: 2.4rem;
+
+  }
+
+}
