@@ -119,8 +119,9 @@ function SearchBooks() {
                 <>
                   <article className="book-item" key={bookItem.id} >
                     <header>
-                    {bookItem.volumeInfo.imageLinks === undefined ? (<></>) : (<img src={bookItem.volumeInfo.imageLinks.thumbnail} alt={bookItem.volumeInfo.title}/>)}
+                   
                       <div>
+                      {bookItem.volumeInfo.imageLinks === undefined ? (<></>) : (<img src={bookItem.volumeInfo.imageLinks.thumbnail} alt={bookItem.volumeInfo.title}/>)}
                         <strong>{bookItem.volumeInfo.title}</strong>
                         <span>{bookItem.volumeInfo.authors}</span>
                       </div>
