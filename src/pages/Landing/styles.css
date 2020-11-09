@@ -20,6 +20,13 @@
   align-items: center;
 }
 
+.logo-container h1 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-top: 0.8rem;
+}
+
 .logo-container h2 {
   font-weight: 500;
   font-size: 1.8rem;
