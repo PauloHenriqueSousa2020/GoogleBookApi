@@ -20,7 +20,7 @@ function Landing(){
         <div className="buttons-container">
           <Link to="/searchbooks" className="search-books">
             <ImBooks size={22} style={{marginRight: 5}} />
-            Buscar Livros
+            Buscar
           </Link>
 
           <Link to="/favorites" className="favorites-book">
