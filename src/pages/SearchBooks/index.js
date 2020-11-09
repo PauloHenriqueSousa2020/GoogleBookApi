@@ -131,7 +131,10 @@ function SearchBooks() {
                           <ImStarFull size={22} color="#FFF" />
                           Favoritar
                         </button>
-     
+                        <button onClick={() => handleMoreInfos(bookItem)}>
+                          <ImPlus size={22} color="#FFF" />
+                          Ver detalhes
+                        </button>
                       </div>
                     </footer>
                   </article>
