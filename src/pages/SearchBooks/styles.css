@@ -19,7 +19,7 @@
 }
 
 .input-block input {
-  width: 100%;
+  width: 90%;
   height: 5.6rem;
   margin-top: 0.8rem;
   border-radius: 0.8rem;
@@ -65,7 +65,7 @@
 #page-search-books main{
   margin: 3.2rem auto;
   width: 90%;
-  display: flex;
+
 }
 
 .book-item {
