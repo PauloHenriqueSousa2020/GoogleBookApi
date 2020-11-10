@@ -80,6 +80,7 @@ function SearchBooks() {
               type="text"
               name="books"
               label="Book"
+              required={true}
               value={bookName}
               onChange={e => setBookName(e.target.value)}
             />
@@ -119,9 +120,8 @@ function SearchBooks() {
                 <>
                   <article className="book-item" key={bookItem.id} >
                     <header>
-                   
                       <div>
-                      {bookItem.volumeInfo.imageLinks === undefined ? (<></>) : (<img src={bookItem.volumeInfo.imageLinks.thumbnail} alt={bookItem.volumeInfo.title}/>)}
+                        {bookItem.volumeInfo.imageLinks === undefined ? (<></>) : (<img src={bookItem.volumeInfo.imageLinks.thumbnail} alt={bookItem.volumeInfo.title}/>)}
                         <strong>{bookItem.volumeInfo.title}</strong>
                         <span>{bookItem.volumeInfo.authors}</span>
                       </div>

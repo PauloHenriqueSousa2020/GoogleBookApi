@@ -45,9 +45,9 @@ function Favorites() {
               return (
                 <>
                   <article className="book-item" key={favoriteBooks.id} >
-                    <header>
-                      <img src={favoriteBooks.thumbnail} alt={favoriteBooks.title}/>
+                    <header>    
                       <div>
+                        <img src={favoriteBooks.thumbnail} alt={favoriteBooks.title}/>
                         <strong>{favoriteBooks.title}</strong>
                         <span>{favoriteBooks.authors}</span>
                       </div>
