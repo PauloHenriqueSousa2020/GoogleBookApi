@@ -20,7 +20,6 @@
 
 .input-block input {
   width: 90%;
-  align-items: center;
   height: 5.6rem;
   margin-top: 0.8rem;
   border-radius: 0.8rem;
@@ -43,8 +42,7 @@
 }
 
 #search-books button {
-  width: 90%;
-  align-items: center;
+  width: 100%;
   height: 5.6rem;
   background: #F3AA3F;
   color: #FFFFFF;
@@ -76,7 +74,6 @@
   border-radius: 0.8rem;
   margin-top: 2.4rem;
   overflow: hidden;
-  max-width: 200px;
 }
 
 .book-item header {
@@ -130,7 +127,7 @@
 }
 
 .book-item footer .button-container {
-  display: flex;
+  display: inline-block;
 }
 
 .book-item  footer button {
@@ -147,6 +144,7 @@
   justify-content: space-evenly;
   transition: 0.2s;
   text-decoration: none;
+  margin-bottom: 0.8rem;
 }
 
 .book-item footer button:hover {
@@ -177,12 +175,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 16px; 
-  }
-
-  .book-item footer .button-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 16px;
   }
 
   .book-item header,
