@@ -127,7 +127,7 @@ function SearchBooks() {
                       </div>
                     </header>
                     <footer>
-                      <div className="button-container">
+                     {/*  <div className="button-container"> */}
                         <button onClick={() => handleFavorites(bookItem)}>
                           <ImStarFull size={22} color="#FFF" />
                           Favoritar
@@ -136,7 +136,7 @@ function SearchBooks() {
                           <ImPlus size={22} color="#FFF" />
                           Ver detalhes
                         </button>
-                      </div>
+                     {/*  </div> */}
                     </footer>
                   </article>
                 </>
