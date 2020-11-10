@@ -128,7 +128,8 @@
 }
 
 .book-item footer .button-container {
-  display: flex;
+  display: inline-block;
+
 }
 
 .book-item  footer button {
